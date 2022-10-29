@@ -1,0 +1,5 @@
+bmaior=float(input('Digite o valor da base maior: '))
+bmenor=float(input('Digite o valor da base menor: '))
+h = float(input('Digite o valor da altura: '))
+area=((bmaior+bmenor)*h)/2
+print(f'O valor da área desse trapézio vale {area:.2f} unidade da área')

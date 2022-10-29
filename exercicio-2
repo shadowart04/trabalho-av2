@@ -1,0 +1,11 @@
+def somaImposto(taxaImposto, custo):
+
+
+    resultado_imposto = custo + (custo * taxaImposto / 100)
+
+    
+    
+    return resultado_imposto
+    
+
+somaImposto(10, 45.00)
