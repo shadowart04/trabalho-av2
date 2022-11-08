@@ -1,11 +1,10 @@
-def somaImposto(taxaImposto, custo):
+custo = float( input("Digite o valor do produto: R$ "))
+taxa_imposto = (0.05 * custo)
 
+def soma_imposto():
+    global custo
+    custo = custo + taxa_imposto
 
-    resultado_imposto = custo + (custo * taxaImposto / 100)
+soma_imposto()
 
-    
-    
-    return resultado_imposto
-    
-
-somaImposto(10, 45.00)
+print(f'O valor com a taxa de imposto fica: {custo} reais.')
